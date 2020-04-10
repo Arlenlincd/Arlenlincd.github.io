@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[linux-crontab定时执行]]></title>
+    <url>%2F2020%2F04%2F10%2Flinux-crontab.html</url>
+    <content type="text"><![CDATA[前言本文章基于linux服务器，使用linux的crontab命令实现任务的定时执行。 通过crontab 命令，我们可以在固定的间隔时间执行指定的系统指令或 shell script脚本。时间间隔的单位可以是分钟、小时、日、月、周及以上的任意组合。这个命令非常适合周期性的日志分析或数据备份等工作。 下面以腾讯云服务器为例，实现一个每天自动发送天气预报到指定邮箱的任务。 准备工作需要提前准备好一台云服务器和一个实现发送邮箱的python代码文件。 因为要实现每天的发送任务，需要使用云服务器。云服务器和python代码可以到我另外的两篇文章中查看，具体就不在这里赘述了。 部署代码拷贝文件到服务器这里我使用的是WinSCP，从windows上拷贝文件到linux云服务器。WinSCP可以直接在windows自带的应用商店中下载，或者到官网下载。 WinSCP的使用很简单，直接新建站点，输入云服务器的主机名（即ip地址）、用户名和密码后登录就可以复制文件了。 我们把tianqi.py文件复制到目录test中（test是我新建的目录） 使用crontab命令其实这个命令需要在crontab文件中进行编写，文件所在目录为根目录下的etc目录中。我们直接使用命令: 1$ crontab -e 打开crontab文件，在文件下面写入 10 7 * * * python3 test/tianqi.py 这行命令的意思就是在每天7点执行tianqi.py这个文件。 之后按ctrl+X，Y，enter保存关闭crontab文件。 好了，现在每天就能准时收到邮件啦~ 扩展关于crontab的更多使用方法和原理可以参考文档crontab 定时任务。]]></content>
+      <categories>
+        <category>Linux</category>
+      </categories>
+      <tags>
+        <tag>Linux</tag>
+        <tag>小点子</tag>
+        <tag>云服务器</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[第一篇博客]]></title>
     <url>%2F2018%2F11%2F30%2F%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2.html</url>
     <content type="text"><![CDATA[第一次见面你好，同学！欢迎你使用基于hexo搭建的next主题的博客系统。 关于Markdown当你能够正常访问这个页面时，相信你已经知道以后写博客文章是基于Markdown语法的，请熟练使用他。 祝你好运]]></content>
