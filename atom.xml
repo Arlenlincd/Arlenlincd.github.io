@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>派 | Pyker</title>
+  <title>艾 | Arlin</title>
   
   
   <link href="/atom.xml" rel="self"/>
   
-  <link href="https://www.ipyker.com/"/>
+  <link href="https://Arlenlincd.github.io/"/>
   <updated>2020-04-10T10:01:33.131Z</updated>
-  <id>https://www.ipyker.com/</id>
+  <id>https://Arlenlincd.github.io/</id>
   
   <author>
-    <name>丨Pyker丨</name>
+    <name>丨Arlin丨</name>
     
   </author>
   
@@ -18,8 +18,8 @@
   
   <entry>
     <title>第一篇博客</title>
-    <link href="https://www.ipyker.com/2018/11/30/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2.html"/>
-    <id>https://www.ipyker.com/2018/11/30/第一篇博客.html</id>
+    <link href="https://Arlenlincd.github.io/2018/11/30/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2.html"/>
+    <id>https://Arlenlincd.github.io/2018/11/30/第一篇博客.html</id>
     <published>2018-11-30T09:30:00.000Z</published>
     <updated>2020-04-10T10:01:33.131Z</updated>
     
@@ -35,18 +35,18 @@
     
     </summary>
     
-      <category term="develop" scheme="https://www.ipyker.com/categories/develop/"/>
+      <category term="develop" scheme="https://Arlenlincd.github.io/categories/develop/"/>
     
-      <category term="test" scheme="https://www.ipyker.com/categories/develop/test/"/>
+      <category term="test" scheme="https://Arlenlincd.github.io/categories/develop/test/"/>
     
     
-      <category term="linux" scheme="https://www.ipyker.com/tags/linux/"/>
+      <category term="linux" scheme="https://Arlenlincd.github.io/tags/linux/"/>
     
-      <category term="os" scheme="https://www.ipyker.com/tags/os/"/>
+      <category term="os" scheme="https://Arlenlincd.github.io/tags/os/"/>
     
-      <category term="java" scheme="https://www.ipyker.com/tags/java/"/>
+      <category term="java" scheme="https://Arlenlincd.github.io/tags/java/"/>
     
-      <category term="python" scheme="https://www.ipyker.com/tags/python/"/>
+      <category term="python" scheme="https://Arlenlincd.github.io/tags/python/"/>
     
   </entry>
   
