@@ -51,7 +51,7 @@
     <link href="https://Arlenlincd.github.io/2020/04/10/linux-crontab.html"/>
     <id>https://Arlenlincd.github.io/2020/04/10/linux-crontab.html</id>
     <published>2020-04-10T05:09:10.000Z</published>
-    <updated>2020-04-11T01:08:40.869Z</updated>
+    <updated>2020-04-11T04:13:57.693Z</updated>
     
     <summary type="html">
     
@@ -65,9 +65,9 @@
     
     </summary>
     
-      <category term="Linux" scheme="https://Arlenlincd.github.io/categories/Linux/"/>
+      <category term="博客" scheme="https://Arlenlincd.github.io/categories/%E5%8D%9A%E5%AE%A2/"/>
     
-      <category term="yun" scheme="https://Arlenlincd.github.io/categories/Linux/yun/"/>
+      <category term="linux" scheme="https://Arlenlincd.github.io/categories/%E5%8D%9A%E5%AE%A2/linux/"/>
     
     
       <category term="linux" scheme="https://Arlenlincd.github.io/tags/linux/"/>
@@ -83,7 +83,7 @@
     <link href="https://Arlenlincd.github.io/2020/04/09/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2.html"/>
     <id>https://Arlenlincd.github.io/2020/04/09/第一篇博客.html</id>
     <published>2020-04-09T05:30:00.000Z</published>
-    <updated>2020-04-11T03:00:10.699Z</updated>
+    <updated>2020-04-11T04:14:34.165Z</updated>
     
     <summary type="html">
     
@@ -97,18 +97,8 @@
     
     </summary>
     
-      <category term="develop" scheme="https://Arlenlincd.github.io/categories/develop/"/>
     
-      <category term="test" scheme="https://Arlenlincd.github.io/categories/develop/test/"/>
-    
-    
-      <category term="linux" scheme="https://Arlenlincd.github.io/tags/linux/"/>
-    
-      <category term="os" scheme="https://Arlenlincd.github.io/tags/os/"/>
-    
-      <category term="java" scheme="https://Arlenlincd.github.io/tags/java/"/>
-    
-      <category term="python" scheme="https://Arlenlincd.github.io/tags/python/"/>
+      <category term="first" scheme="https://Arlenlincd.github.io/tags/first/"/>
     
   </entry>
   
