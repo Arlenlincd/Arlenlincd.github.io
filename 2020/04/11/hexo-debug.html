@@ -149,23 +149,24 @@
   <script>
   (function(i,s,o,g,r,a,m){i["DaoVoiceObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;a.charset="utf-8";m.parentNode.insertBefore(a,m)})(window,document,"script",('https:' == document.location.protocol ? 'https:' : 'http:') + "//widget.daovoice.io/widget/0f81ff2f.js","daovoice")
   daovoice('init', {
-      app_id: "bd399fce"
+      app_id: "30037532"
     });
   daovoice('update');
   </script>
 
-  <meta name="description" content="第一次见面你好，同学！欢迎你使用基于hexo搭建的next主题的博客系统。 关于Markdown当你能够正常访问这个页面时，相信你已经知道以后写博客文章是基于Markdown语法的，请熟练使用他。 祝你好运">
-<meta name="keywords" content="linux,os,java,python">
+
+  <meta name="description" content="ERROR Process failed: about/index.md TypeError: Cannot read property ‘utcOffset’ of null我不知道什么时候乱改代码发现最后报了这个错，我好像是在运行hexo s时报的错，上网搜索发现有人在创建页面时也报错。 不过一个道理，是因为站点配置文件的timezone即网站时区设置有问题，必须与主题的配置文件一致，把tim">
+<meta name="keywords" content="hexo,bug">
 <meta property="og:type" content="article">
-<meta property="og:title" content="第一篇博客">
-<meta property="og:url" content="https://Arlenlincd.github.io/2018/11/30/第一篇博客.html">
+<meta property="og:title" content="Hexo-next主题下出现的一些问题">
+<meta property="og:url" content="https://Arlenlincd.github.io/2020/04/11/hexo-debug.html">
 <meta property="og:site_name" content="东 | Arlin">
-<meta property="og:description" content="第一次见面你好，同学！欢迎你使用基于hexo搭建的next主题的博客系统。 关于Markdown当你能够正常访问这个页面时，相信你已经知道以后写博客文章是基于Markdown语法的，请熟练使用他。 祝你好运">
+<meta property="og:description" content="ERROR Process failed: about/index.md TypeError: Cannot read property ‘utcOffset’ of null我不知道什么时候乱改代码发现最后报了这个错，我好像是在运行hexo s时报的错，上网搜索发现有人在创建页面时也报错。 不过一个道理，是因为站点配置文件的timezone即网站时区设置有问题，必须与主题的配置文件一致，把tim">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2020-04-10T10:01:33.131Z">
+<meta property="og:updated_time" content="2020-04-11T04:04:26.011Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="第一篇博客">
-<meta name="twitter:description" content="第一次见面你好，同学！欢迎你使用基于hexo搭建的next主题的博客系统。 关于Markdown当你能够正常访问这个页面时，相信你已经知道以后写博客文章是基于Markdown语法的，请熟练使用他。 祝你好运">
+<meta name="twitter:title" content="Hexo-next主题下出现的一些问题">
+<meta name="twitter:description" content="ERROR Process failed: about/index.md TypeError: Cannot read property ‘utcOffset’ of null我不知道什么时候乱改代码发现最后报了这个错，我好像是在运行hexo s时报的错，上网搜索发现有人在创建页面时也报错。 不过一个道理，是因为站点配置文件的timezone即网站时区设置有问题，必须与主题的配置文件一致，把tim">
 
 
 
@@ -175,7 +176,7 @@
 
   
   
-  <link rel="canonical" href="https://Arlenlincd.github.io/2018/11/30/第一篇博客">
+  <link rel="canonical" href="https://Arlenlincd.github.io/2020/04/11/hexo-debug">
 
 
 
@@ -185,7 +186,7 @@
   };
 </script>
 
-  <title>第一篇博客 | 东 | Arlin</title>
+  <title>Hexo-next主题下出现的一些问题 | 东 | Arlin</title>
   
 
 
@@ -466,7 +467,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://Arlenlincd.github.io/2018/11/30/第一篇博客.html">
+    <link itemprop="mainEntityOfPage" href="https://Arlenlincd.github.io/2020/04/11/hexo-debug.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="丨Arlin丨">
@@ -483,7 +484,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">第一篇博客
+          <h1 class="post-title" itemprop="name headline">Hexo-next主题下出现的一些问题
 
               
             
@@ -511,24 +512,12 @@
                 
               
 
-              <time title="创建时间：2018-11-30 17:30:00" itemprop="dateCreated datePublished" datetime="2018-11-30T17:30:00+08:00">2018-11-30</time>
+              <time title="创建时间：2020-04-11 11:02:00 / 修改时间：12:04:26" itemprop="dateCreated datePublished" datetime="2020-04-11T11:02:00+08:00">2020-04-11</time>
             
 
             
               
 
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2020-04-10 18:01:33" itemprop="dateModified" datetime="2020-04-10T18:01:33+08:00">2020-04-10</time>
               
             
           </span>
@@ -545,14 +534,14 @@
                 <span class="post-meta-item-text">分类于</span>
               
               
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/develop/" itemprop="url" rel="index"><span itemprop="name">develop</span></a></span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/技术/" itemprop="url" rel="index"><span itemprop="name">技术</span></a></span>
 
                 
                 
                   ，
                 
               
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/develop/test/" itemprop="url" rel="index"><span itemprop="name">test</span></a></span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/技术/博客/" itemprop="url" rel="index"><span itemprop="name">博客</span></a></span>
 
                 
                 
@@ -566,6 +555,19 @@
           
 
           
+          
+            <span id="/2020/04/11/hexo-debug.html" class="leancloud_visitors" data-flag-title="Hexo-next主题下出现的一些问题">
+              <span class="post-meta-divider">|</span>
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              
+                <!-- <span class="post-meta-item-text">热度：</span>-->
+                <span class="post-meta-item-text">热度 </span>
+              
+                <span class="leancloud-visitors-count"></span>
+                <span>℃</span>
+            </span>
           
 
           
@@ -588,7 +590,7 @@
                 
                   <span class="post-meta-item-text">本文字数：</span>
                 
-                <span title="本文字数">104</span>
+                <span title="本文字数">289</span>
               
 
               
@@ -622,9 +624,10 @@
       
 
       
-        <h2 id="第一次见面"><a href="#第一次见面" class="headerlink" title="第一次见面"></a>第一次见面</h2><p>你好，同学！欢迎你使用基于hexo搭建的next主题的博客系统。</p>
-<h2 id="关于Markdown"><a href="#关于Markdown" class="headerlink" title="关于Markdown"></a>关于Markdown</h2><p>当你能够正常访问这个页面时，相信你已经知道以后写博客文章是基于Markdown语法的，请熟练使用他。</p>
-<p><strong>祝你好运</strong></p>
+        <h3 id="ERROR-Process-failed-about-index-md-TypeError-Cannot-read-property-‘utcOffset’-of-null"><a href="#ERROR-Process-failed-about-index-md-TypeError-Cannot-read-property-‘utcOffset’-of-null" class="headerlink" title="ERROR Process failed: about/index.md TypeError: Cannot read property ‘utcOffset’ of null"></a>ERROR Process failed: about/index.md TypeError: Cannot read property ‘utcOffset’ of null</h3><p>我不知道什么时候乱改代码发现最后报了这个错，我好像是在运行<code>hexo s</code>时报的错，上网搜索发现有人在创建页面时也报错。</p>
+<p>不过一个道理，是因为站点配置文件的<strong>timezone</strong>即网站时区设置有问题，必须与主题的配置文件一致，把timezone<code>:</code>后面都改成<code>Asia/Shanghai</code>就可以了。</p>
+<p>关于时区的选择可以参考<a href="https://en.wikipedia.org/wiki/List_of_tz_database_time_zones" target="_blank" rel="noopener">这里</a>。</p>
+<p>hexo会默认使用电脑的时区，一般对于中国大陆地区可以使用<strong>Asia/Shanghai</strong>。</p>
 
       
     </div>
@@ -641,30 +644,6 @@
       
     
     
-      <div>
-        <div id="reward-container">
-  <div>Thank you for your accept. mua！</div>
-  <button id="reward-button" disable="enable" onclick="var qr = document.getElementById(&quot;qr&quot;); qr.style.display = (qr.style.display === 'none') ? 'block' : 'none';">
-    打赏
-  </button>
-  <div id="qr" style="display: none;">
-
-    
-      
-      
-        
-      
-      <div style="display: inline-block">
-        <img src="/images/reward/wechatpay.png" alt="丨Arlin丨 微信支付">
-        <p>微信支付</p>
-      </div>
-    
-
-  </div>
-</div>
-
-      </div>
-    
 
     
       <div>
@@ -679,11 +658,11 @@
 
 <ul class="post-copyright">
   <li class="post-copyright-author">
-    <strong>本文作者： </strong>Pyker</li>
+    <strong>本文作者： </strong>丨Arlin丨</li>
   <li class="post-copyright-link">
     <strong>本文链接：</strong>
     
-    <a href="https://Arlenlincd.github.io/2018/11/30/第一篇博客.html" title="第一篇博客">https://Arlenlincd.github.io/2018/11/30/第一篇博客.html</a>
+    <a href="https://Arlenlincd.github.io/2020/04/11/hexo-debug.html" title="Hexo-next主题下出现的一些问题">https://Arlenlincd.github.io/2020/04/11/hexo-debug.html</a>
   </li>
   <li class="post-copyright-license">
     <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noopener" target="_blank"><i class="fa fa-fw fa-creative-commons"></i>BY-NC-SA</a> 许可协议。转载请注明出处！</li>
@@ -705,13 +684,9 @@
       
         <div class="post-tags">
           
-            <a href="/tags/linux/" rel="tag"><i class="fa fa-tag"></i> linux</a>
+            <a href="/tags/hexo/" rel="tag"><i class="fa fa-tag"></i> hexo</a>
           
-            <a href="/tags/os/" rel="tag"><i class="fa fa-tag"></i> os</a>
-          
-            <a href="/tags/java/" rel="tag"><i class="fa fa-tag"></i> java</a>
-          
-            <a href="/tags/python/" rel="tag"><i class="fa fa-tag"></i> python</a>
+            <a href="/tags/bug/" rel="tag"><i class="fa fa-tag"></i> bug</a>
           
         </div>
       
@@ -724,15 +699,15 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
+              <a href="/2020/04/10/linux-crontab.html" rel="next" title="linux-crontab定时执行">
+                <i class="fa fa-chevron-left"></i> linux-crontab定时执行
+              </a>
+            
           </div>
 
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2020/04/10/linux-crontab.html" rel="prev" title="linux-crontab定时执行">
-                linux-crontab定时执行 <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -808,7 +783,7 @@
                 
                   <a href="/archives/">
                 
-                    <span class="site-state-item-count">2</span>
+                    <span class="site-state-item-count">3</span>
                     <span class="site-state-item-name">日志</span>
                   </a>
                 </div>
@@ -831,7 +806,13 @@
                     
                       
                     
-                    <span class="site-state-item-count">3</span>
+                      
+                    
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">6</span>
                     <span class="site-state-item-name">分类</span>
                   </a>
                 </div>
@@ -862,7 +843,9 @@
                     
                       
                     
-                    <span class="site-state-item-count">7</span>
+                      
+                    
+                    <span class="site-state-item-count">8</span>
                     <span class="site-state-item-name">标签</span>
                   </a>
                 </div>
@@ -932,15 +915,7 @@
               <ul class="links-of-blogroll-list">
                 
                   <li class="links-of-blogroll-item">
-                    <a href="http://www.ttlsa.com/" title="http://www.ttlsa.com/" rel="noopener" target="_blank">运维生存时间</a>
-                  </li>
-                
-                  <li class="links-of-blogroll-item">
                     <a href="https://www.iyunw.cn" title="https://www.iyunw.cn" rel="noopener" target="_blank">爱运维</a>
-                  </li>
-                
-                  <li class="links-of-blogroll-item">
-                    <a href="https://nginxconfig.io/" title="https://nginxconfig.io/" rel="noopener" target="_blank">Nginxconfig</a>
                   </li>
                 
                   <li class="links-of-blogroll-item">
@@ -949,6 +924,10 @@
                 
                   <li class="links-of-blogroll-item">
                     <a href="https://echarts.baidu.com/index.html" title="https://echarts.baidu.com/index.html" rel="noopener" target="_blank">echarts可视化库</a>
+                  </li>
+                
+                  <li class="links-of-blogroll-item">
+                    <a href="https://developers.weixin.qq.com/community/develop/mixflow" title="https://developers.weixin.qq.com/community/develop/mixflow" rel="noopener" target="_blank">微信开放社区</a>
                   </li>
                 
               </ul>
@@ -973,7 +952,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#第一次见面"><span class="nav-number">1.</span> <span class="nav-text">第一次见面</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#关于Markdown"><span class="nav-number">2.</span> <span class="nav-text">关于Markdown</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#ERROR-Process-failed-about-index-md-TypeError-Cannot-read-property-‘utcOffset’-of-null"><span class="nav-number">1.</span> <span class="nav-text">ERROR Process failed: about/index.md TypeError: Cannot read property ‘utcOffset’ of null</span></a></li></ol></div>
             
 
           </div>
@@ -1215,7 +1194,7 @@
   
     <script>
   window.livereOptions = {
-    refer: '2018/11/30/第一篇博客.html'
+    refer: '2020/04/11/hexo-debug.html'
   };
   (function(d, s) {
     var j, e = d.getElementsByTagName(s)[0];
@@ -1556,6 +1535,71 @@
 
 
   
+  
+  <script>
+    
+    function addCount(Counter) {
+      var $visitors = $('.leancloud_visitors');
+      var url = $visitors.attr('id').trim();
+      var title = $visitors.attr('data-flag-title').trim();
+
+      Counter('get', '/classes/Counter', { where: JSON.stringify({ url }) })
+        .done(function({ results }) {
+          if (results.length > 0) {
+            var counter = results[0];
+            
+            Counter('put', '/classes/Counter/' + counter.objectId, JSON.stringify({ time: { '__op': 'Increment', 'amount': 1 } }))
+            
+              .done(function() {
+                var $element = $(document.getElementById(url));
+                $element.find('.leancloud-visitors-count').text(counter.time + 1);
+              })
+            
+              .fail(function ({ responseJSON }) {
+                console.log('Failed to save Visitor num, with error message: ' + responseJSON.error);
+              })
+          } else {
+            
+              Counter('post', '/classes/Counter', JSON.stringify({ title: title, url: url, time: 1 }))
+                .done(function() {
+                  var $element = $(document.getElementById(url));
+                  $element.find('.leancloud-visitors-count').text(1);
+                })
+                .fail(function() {
+                  console.log('Failed to create');
+                });
+            
+          }
+        })
+        .fail(function ({ responseJSON }) {
+          console.log('LeanCloud Counter Error: ' + responseJSON.code + ' ' + responseJSON.error);
+        });
+    }
+    
+
+    $(function() {
+      $.get('https://app-router.leancloud.cn/2/route?appId=' + 'uBVyXNaJOKgPrr1Go2GF5l5J-gzGzoHsz')
+        .done(function({ api_server }) {
+          var Counter = function(method, url, data) {
+            return $.ajax({
+              method: method,
+              url: 'https://' + api_server + '/1.1' + url,
+              headers: {
+                'X-LC-Id': 'uBVyXNaJOKgPrr1Go2GF5l5J-gzGzoHsz',
+                'X-LC-Key': '3kMNY6IhHFNcMxc3iLNGO234',
+                'Content-Type': 'application/json',
+              },
+              data: data
+            });
+          };
+          
+            addCount(Counter);
+          
+        });
+    });
+  </script>
+
+
 
   
 

@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://Arlenlincd.github.io/"/>
-  <updated>2020-04-10T12:09:11.031Z</updated>
+  <updated>2020-04-11T04:04:26.011Z</updated>
   <id>https://Arlenlincd.github.io/</id>
   
   <author>
@@ -17,11 +17,41 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Hexo-next主题下出现的一些问题</title>
+    <link href="https://Arlenlincd.github.io/2020/04/11/hexo-debug.html"/>
+    <id>https://Arlenlincd.github.io/2020/04/11/hexo-debug.html</id>
+    <published>2020-04-11T03:02:00.000Z</published>
+    <updated>2020-04-11T04:04:26.011Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="技术" scheme="https://Arlenlincd.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+      <category term="博客" scheme="https://Arlenlincd.github.io/categories/%E6%8A%80%E6%9C%AF/%E5%8D%9A%E5%AE%A2/"/>
+    
+    
+      <category term="hexo" scheme="https://Arlenlincd.github.io/tags/hexo/"/>
+    
+      <category term="bug" scheme="https://Arlenlincd.github.io/tags/bug/"/>
+    
+  </entry>
+  
+  <entry>
     <title>linux-crontab定时执行</title>
     <link href="https://Arlenlincd.github.io/2020/04/10/linux-crontab.html"/>
     <id>https://Arlenlincd.github.io/2020/04/10/linux-crontab.html</id>
     <published>2020-04-10T05:09:10.000Z</published>
-    <updated>2020-04-10T12:09:11.031Z</updated>
+    <updated>2020-04-11T01:08:40.869Z</updated>
     
     <summary type="html">
     
@@ -37,8 +67,10 @@
     
       <category term="Linux" scheme="https://Arlenlincd.github.io/categories/Linux/"/>
     
+      <category term="yun" scheme="https://Arlenlincd.github.io/categories/Linux/yun/"/>
     
-      <category term="Linux" scheme="https://Arlenlincd.github.io/tags/Linux/"/>
+    
+      <category term="linux" scheme="https://Arlenlincd.github.io/tags/linux/"/>
     
       <category term="小点子" scheme="https://Arlenlincd.github.io/tags/%E5%B0%8F%E7%82%B9%E5%AD%90/"/>
     
@@ -48,10 +80,10 @@
   
   <entry>
     <title>第一篇博客</title>
-    <link href="https://Arlenlincd.github.io/2018/11/30/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2.html"/>
-    <id>https://Arlenlincd.github.io/2018/11/30/第一篇博客.html</id>
-    <published>2018-11-30T09:30:00.000Z</published>
-    <updated>2020-04-10T10:01:33.131Z</updated>
+    <link href="https://Arlenlincd.github.io/2020/04/09/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2.html"/>
+    <id>https://Arlenlincd.github.io/2020/04/09/第一篇博客.html</id>
+    <published>2020-04-09T05:30:00.000Z</published>
+    <updated>2020-04-11T03:00:10.699Z</updated>
     
     <summary type="html">
     
