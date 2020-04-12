@@ -1865,7 +1865,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #3993ff;
+  background: #9c8eff;
 }
 .feed-link,
 .chat {
@@ -2045,7 +2045,7 @@ img:hover {
 .footer {
   font-size: 14px;
   color: #999;
-  background: url("/images/headbg.jpg") repeat !important;
+  background: rgba(212,239,255,0.5) none repeat scroll !important;
 }
 .footer img {
   border: none;
@@ -2527,7 +2527,7 @@ embed {
   .site-nav {
     position: absolute;
     left: 0;
-    top: 52px;
+    top: 95px;
     margin: 0;
     width: 100%;
     padding: 0;
@@ -2675,10 +2675,4 @@ embed {
 }
 #comments .vsys {
   display: none;
-}
-.header {
-  background: rgba(177,255,255,0.5) none repeat scroll !important;
-}
-.footer {
-  background: rgba(177,255,255,0.5) none repeat scroll !important;
 }

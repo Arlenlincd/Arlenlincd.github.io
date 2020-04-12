@@ -166,7 +166,7 @@
 <meta property="og:image" content="https://arlenlincd.github.io/images/202004101415.png">
 <meta property="og:image" content="https://arlenlincd.github.io/images/202004101423.png">
 <meta property="og:image" content="https://arlenlincd.github.io/images/202004101440.png">
-<meta property="og:updated_time" content="2020-04-11T04:13:57.693Z">
+<meta property="og:updated_time" content="2020-04-12T05:33:16.346Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="linux-crontab定时执行">
 <meta name="twitter:description" content="前言本文章基于linux服务器，使用linux的crontab命令实现任务的定时执行。 通过crontab 命令，我们可以在固定的间隔时间执行指定的系统指令或 shell script脚本。时间间隔的单位可以是分钟、小时、日、月、周及以上的任意组合。这个命令非常适合周期性的日志分析或数据备份等工作。 下面以腾讯云服务器为例，实现一个每天自动发送天气预报到指定邮箱的任务。 准备工作需要提前准备好一台">
@@ -537,7 +537,7 @@
                 
                   <span class="post-meta-item-text">更新于</span>
                 
-                <time title="修改时间：2020-04-11 12:13:57" itemprop="dateModified" datetime="2020-04-11T12:13:57+08:00">2020-04-11</time>
+                <time title="修改时间：2020-04-12 13:33:16" itemprop="dateModified" datetime="2020-04-12T13:33:16+08:00">2020-04-12</time>
               
             
           </span>
@@ -554,14 +554,14 @@
                 <span class="post-meta-item-text">分类于</span>
               
               
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/博客/" itemprop="url" rel="index"><span itemprop="name">博客</span></a></span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/技术/" itemprop="url" rel="index"><span itemprop="name">技术</span></a></span>
 
                 
                 
                   ，
                 
               
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/博客/linux/" itemprop="url" rel="index"><span itemprop="name">linux</span></a></span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/技术/linux/" itemprop="url" rel="index"><span itemprop="name">linux</span></a></span>
 
                 
                 
@@ -604,12 +604,13 @@
           
 
           
-            <span class="post-meta-divider">|</span>
-            <span class="post-meta-item-icon">
+            <!--<span class="post-meta-divider">|</span>
+            <span class="post-meta-item-icon"
+             >
             <i class="fa fa-eye"></i>
              热度： 
             <span class="busuanzi-value" id="busuanzi_value_page_pv"></span>
-            </span>
+            </span>-->
           
 
           
@@ -836,7 +837,7 @@
                 
                   <a href="/archives/">
                 
-                    <span class="site-state-item-count">3</span>
+                    <span class="site-state-item-count">4</span>
                     <span class="site-state-item-name">日志</span>
                   </a>
                 </div>
@@ -890,7 +891,9 @@
                     
                       
                     
-                    <span class="site-state-item-count">6</span>
+                      
+                    
+                    <span class="site-state-item-count">7</span>
                     <span class="site-state-item-name">标签</span>
                   </a>
                 </div>
@@ -1030,7 +1033,7 @@
       <i class="fa fa-area-chart"> 站点字数合计:</i>
     </span>
     
-    <span title="站点总字数">1k</span>
+    <span title="站点总字数">2k</span>
   
   
 </div>
@@ -1737,12 +1740,15 @@
 
 
 
+<!--
 
 
   <script async src="/js/cursor/fireworks.js"></script>
 
+-->
 
  
+
 <script>
   var OriginTitile = document.title;
   var titleTime;
@@ -1759,6 +1765,13 @@
   });
 </script>
 
+
+
+<script>
+  $(document).ready(function () {
+    $(".header-inner").animate({padding: "25px 0 25px"}, 1000);
+  });
+</script>
   <!-- 引用依赖 -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.css">
 <script src="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.js"></script>
