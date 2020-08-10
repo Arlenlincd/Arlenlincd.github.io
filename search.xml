@@ -1,6 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[用户名.github.io访问不了]]></title>
+    <url>%2F2020%2F08%2F10%2Fgithub-io-fangwen.html</url>
+    <content type="text"><![CDATA[前言我的个人博客网站绑定了域名，以前都是通过域名访问的，今天心血来潮用github的url访问发现访问出现问题。 我用的是Chrome浏览器，页面提示 您的连接不是私密连接，攻击者可能会试图从***.github.io 窃取您的信息 并且不能通过（不安全）直接进去 尝试找到一种方法，直接在页面上键盘输入thisisunsafe然后回车就可以进去，我也试了，确实可以进去。 但是发现页面需要登录才能访问，需要输入用户名和密码。我寻思也没设置过需要验证才能访问的啊，尝试打开别人的居然也需要验证。 解决方案在网上找了许多方法，最终通过知乎发现在3月时github遭到攻击，可能这个问题也与此有关。 只需改变本机的dns就可以了 首先打开控制面板，点击网络和Internet 进入网络和共享中心，点击连接的网络 点击属性 勾选Internet协议版本4（TCP/IPv4）后点击属性 输入更改的dns即可，我这里更改的是114.114.114.114 国内常用DNS地址介绍1、谷歌全球通用DNS地址： 首选DNS地址：8.8.8.8 备选DNS地址：8.8.4.4 2、国内知名的114 DNS地址 首选DNS地址：114.114.114.114 备选DNS地址：114.114.115.115 3、阿里云公共DNS地址 首选DNS地址：223.5.5.5 备选DNS地址：223.6.6.6 4、百度公共DNS地址 首选DNS地址：180.76.76.76 备选DNS地址：暂时（设置的时候，可以使用上面的其他DNS地址，替代一些备选） 5、全国各地网络运营商提供的DNS地址请查看：dns服务器地址大全 全国电信/网通/铁通dns地址大全。]]></content>
+      <categories>
+        <category>博客</category>
+      </categories>
+      <tags>
+        <tag>github</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[创建及发布文章]]></title>
+    <url>%2F2020%2F08%2F10%2Fpublic-article.html</url>
+    <content type="text"><![CDATA[前言本篇文章只是为了记录自己在写文章上传到hexo过程中的过程，主要是怕自己容易忘记某些步骤，老是得上网查，很浪费时间，故此记录。 创建md文件 在hexo根目录打开git命令行 在命令行中用如下命令创建一篇新的文章 1hexo new [layout] &lt;title&gt; 布局（layout） 存储路径 说明 post source/_posts 默认，可以直接发布 page source 在source下新建一个文件夹 draft source/_drafts 新建文件将保持到_drafts中 创建文章文件有两种选择： 用以下命令创建文章，默认发布1hexo new post 文章名 会自动根据文章名创建相应的md文件（会成为url，最好不要用中文），以及文章标题 默认创建的文件在博客根目录下的 \source_posts 下 用以下命令创建草稿，不会被发布1hexo new draft 文章名 当然，可以不借助命令行自己创建文件，但是不会自动生成文章头 关于文章美化使用note标签 具体参考这篇文章：hexo博客Next主题进阶写作技巧 发布命令本地查看：http://localhost:4000 1hexo g 1hexo s 发布到Github 1hexo clean 1hexo g 1hexo d 可以简写为 123hexo g -d或hexo d -g]]></content>
+      <categories>
+        <category>博客</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[获得属于自己的学生云服务器]]></title>
     <url>%2F2020%2F04%2F12%2Ftcserver-preper.html</url>
     <content type="text"><![CDATA[云服务器有什么用？ 网站服务器的应用通常是最常见的，很多人租云服务器用来搭建个人博客网站或展示类的web应用。 写服务端，包括各种app和网站的日常服务。 配置ngrok或frg，实现内网穿透，访问自己没有公网ip的机器。 部署自己的开源产品，或者搭建一个git代码托管服务器。 学习linux相关知识。 做爬虫，写脚本。 等等等等还有很多很多用处。我现在也刚使用云服务器做一些简单地操作，比如搭建网站，日常发邮件啥的。 租一台云服务器我目前使用的是腾讯云服务器，学生服务器价格还是很实惠的，一般是10/月。学生服务器可以续费两次，每次最高续费一年，也就是你最多可以使用三年腾讯云学生服务器，前提是你首次购买的期限是一年，推荐第一次选择一年。 租借学生云服务器可以去官网，校园优惠套餐25岁以下免学生认证。 选择自己想要的操作系统就可以啦。 腾讯云服务器操作系统选择先了解一下腾讯云的两种操作系统 Windows操作系统选择系统内含正版激活；适合于运行Windows下开发的程序，如.net等；支持SQL Server等数据库（需自行安装）；可以使用远程桌面方式登录进行管理； Linux可选操作系统有[CentOS、Ubuntu、RedHat、Debian、Aliyun Linux、SUSE Linux、OpenSUSE、CoreOS、FreeBSD]等，不过学生服务器只有CentOS和ubuntu可选。一般来讲Web应用都选择CentOS。 到底如何选择？取决于用户实际的应用场景编程语言，以网站开发为例： ASP、.NET、HTML、数据库ACCESS、SQL Server建议选择Windows；PHP、PERL、CGI、数据库MySQL、SQLite建议选择Linux。 其实选择操作系统也不用过多纠结，因为后续可以通过CVM控制台的更换系统盘功能来免费更换操作系统。 关于选择服务器配置的可以参考这个链接https://cloud.tencent.com/developer/article/1447144?from=10680 操作系统和配置都是根据自己的需要来选择，我的话只是用来学习和测试代码的，只需要最低配置就足够用了。 快速配置服务器其实腾讯云有一个很详细的文档，因为我懒，这里就直接提供链接吧-&gt;官方文档，里面讲的很详细。 未完待续（侵删）。。。]]></content>

@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://Arlenlincd.github.io/"/>
-  <updated>2020-04-12T15:50:55.901Z</updated>
+  <updated>2020-08-10T16:25:38.270Z</updated>
   <id>https://Arlenlincd.github.io/</id>
   
   <author>
@@ -15,6 +15,58 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>用户名.github.io访问不了</title>
+    <link href="https://Arlenlincd.github.io/2020/08/10/github-io-fangwen.html"/>
+    <id>https://Arlenlincd.github.io/2020/08/10/github-io-fangwen.html</id>
+    <published>2020-08-10T15:51:26.000Z</published>
+    <updated>2020-08-10T16:25:38.270Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="博客" scheme="https://Arlenlincd.github.io/categories/%E5%8D%9A%E5%AE%A2/"/>
+    
+    
+      <category term="github" scheme="https://Arlenlincd.github.io/tags/github/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>创建及发布文章</title>
+    <link href="https://Arlenlincd.github.io/2020/08/10/public-article.html"/>
+    <id>https://Arlenlincd.github.io/2020/08/10/public-article.html</id>
+    <published>2020-08-10T14:59:48.000Z</published>
+    <updated>2020-08-10T16:30:08.376Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="博客" scheme="https://Arlenlincd.github.io/categories/%E5%8D%9A%E5%AE%A2/"/>
+    
+    
+      <category term="hexo" scheme="https://Arlenlincd.github.io/tags/hexo/"/>
+    
+  </entry>
   
   <entry>
     <title>获得属于自己的学生云服务器</title>
@@ -79,7 +131,7 @@
     <link href="https://Arlenlincd.github.io/2020/04/10/linux-crontab.html"/>
     <id>https://Arlenlincd.github.io/2020/04/10/linux-crontab.html</id>
     <published>2020-04-10T05:09:10.000Z</published>
-    <updated>2020-04-12T05:33:16.346Z</updated>
+    <updated>2020-08-10T14:30:04.092Z</updated>
     
     <summary type="html">
     
